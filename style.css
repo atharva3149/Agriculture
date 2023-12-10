@@ -1,0 +1,166 @@
+
+/*code for kisan heading */
+span{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: 2px solid red;
+     margin-top: -60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(185, 95, 26);
+}
+
+
+
+/* code for logo */
+.logo{
+    width: 150px;
+    margin-bottom: 500px;
+}
+
+.rural{
+    width: 200px;
+    margin-left: 50px;
+    margin-bottom: 480px;
+  
+}
+
+/* code for login and register */
+.container_login {
+    text-align: right;
+    margin-top: -570px;
+    top: 20px;
+   margin-right: 10px;
+    
+}
+
+
+
+.login-btn {
+    padding: 10px 20px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e6e4e4;
+    background-color: #161718;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s ease;
+    
+}
+
+.login-btn:hover {
+    background-color: #2980b9;
+}
+
+<!---->
+
+.container_register{
+    text-align: right;
+    margin-right: 200px;
+    top: 20px;
+    margin-top: -60px;
+    
+}
+
+
+
+.reg-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 150px;
+    font-weight: bold;
+    color: #e6e4e4;
+    background-color: #161718;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reg-btn:hover {
+    background-color: #2980b9;
+}
+
+
+
+/* code for language */
+.lang{
+    margin-left: 1400px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   width: 100px;
+   height: 30px;
+    border: 1px solid #ccc;
+    z-index: 1;
+    background-color: #fff;
+    background-image: url(lang.jpg);
+}
+
+.lang:hover{
+    background-color: #f0f0f0;
+}
+
+
+.langimg{
+    width: 30px;
+  
+}
+
+
+
+
+.home{
+    width: 40px;
+}
+
+.contact{
+    width: 40px;
+}
+
+
+.textrun {
+  color: red;
+  background-color: #161718;
+}
+
+
+
+
+
+
+
+/*  code for text running */
+.scroll-box {
+    width: 1520px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+    background-color:rgb(3, 0, 0);
+    border-radius: 50px;
+  }
+
+  .scroll-text {
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+    position: absolute;
+    color:rgb(237, 223, 223);
+    font-size: 30px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(50%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
